@@ -1,1 +1,123 @@
 @import "reset.css";
+/* helpers */
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bg-primary {
+  background-color: #a6caa1;
+}
+
+.bg-section {
+  background-color: #e9f8e9;
+}
+
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.py-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.f-reverse {
+  flex-direction: row-reverse;
+}
+
+a:hover {
+  color: #f00;
+}
+
+/* header
+========== */
+header {
+  color: #fff;
+  padding: 17px;
+  justify-content: space-between;
+}
+/* space nav link*/
+.wrapper-header__nav a {
+  padding: 0 5px;
+  color: #fff;
+}
+
+.wrapper-header__nav a:hover {
+  color: #f00;
+}
+
+/* logo */
+.wrapper-header__logo a {
+  border: 2px #fff solid;
+  border-radius: 0px 15px;
+  box-shadow: 5px 5px 5px rgb(69, 100, 82);
+  padding: 5px;
+  font-weight: 900;
+  color: #f00;
+}
+.wrapper-header__mito {
+  color: #fff;
+}
+/* footer */
+footer {
+  color: #fff;
+  padding: 30px;
+}
+/* hero */
+.wrapper-header__hero {
+  background-image: url(https://images.unsplash.com/photo-1576398289164-c48dc021b4e1);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+/* body */
+.form {
+  padding-bottom: 80px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.contact {
+  flex-direction: column;
+  background-color: #e9f8e9;
+  border-radius: 30px;
+  width: 30%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  left: 35%;
+}
+
+.contact__name,
+.contact__email,
+.contact__description {
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  margin: 10px;
+}
+
+.contact__button {
+  text-align: center;
+}
+
+.contact__button button {
+  cursor: pointer;
+}

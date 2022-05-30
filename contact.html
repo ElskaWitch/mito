@@ -18,9 +18,71 @@
     <title>Contact</title>
   </head>
   <body>
-    <h1>Contact</h1>
-    <div class="">
-      <p>hello</p>
+    <!-- wrapper header hero -->
+    <div class="wrapper-header">
+      <!-- header -->
+      <header class="container bg-primary d-flex">
+        <!-- logo -->
+        <div class="wrapper-header__logo font-nunito">
+          <a href="index.html"
+            >mi<span class="wrapper-header__mito">To</span>.</a
+          >
+        </div>
+        <!-- navigation -->
+        <nav class="wrapper-header__nav">
+          <a href="index.html">Acceuil</a>
+          <a href="about.html">A propos</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </header>
+      <!-- end header -->
+      <!-- hero -->
+      <div class="wrapper-header__hero"></div>
+      <!-- end hero -->
     </div>
+    <!-- end wrapper -->
+    <!--body-->
+    <h2>Contactez-nous</h2>
+    <form action="" class="form">
+      <div class="contact container py-section font-nunito d-flex">
+        <div class="contact__name">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="entrer votre nom"
+            required
+          />
+        </div>
+        <div class="contact__email">
+          <label for="name">E-mail</label>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="justinel@gmail.com"
+            required
+          />
+        </div>
+        <div class="contact__description">
+          <label for="">Description</label>
+          <textarea
+            name="Description"
+            id="Description"
+            cols="30"
+            rows="5"
+          ></textarea>
+        </div>
+        <div class="contact__button">
+          <button>Envoyer</button>
+        </div>
+      </div>
+    </form>
+    <!--end body-->
+    <!-- footer -->
+    <footer class="container bg-primary py-section">
+      <p>Footer</p>
+    </footer>
+    <!-- end footer -->
   </body>
 </html>
